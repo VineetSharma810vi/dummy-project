@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>vertical drop down list</title>
+	<style type="text/css">
+	*
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+	.main-div ul
+	{
+		list-style-type: none;
+		
+	}	
+		.main-div ul li
+		{
+			background-color: red;
+			border: 2px solid white;
+			width: 120px;
+			height: 36px;
+			text-align: center;
+			line-height: 36px;
+			float: left;
+			
+			border: 2px solid white;
+			border-radius: 10px;
+			position: relative;
+		}
+		.main-div ul ul
+		{
+			display: none;
+			position: absolute;
+		}
+		
+		.main-div ul li a
+		{
+			text-decoration: none;
+			color: white;
+			font-size: 20px;
+			display: block;
+		}
+		
+		.main-div ul li a:hover
+		{
+			background-color: green;
+			border: 2px solid white;
+			border-radius: 10px;
+
+		}
+		.main-div ul ul ul
+		{
+			display: none;
+			margin-left: 120px;
+			margin-top: -38px;
+		}
+		.main-div ul li:hover >ul
+		{
+			display: block;
+		}
+		.main-div ul ul li:hover >ul
+		{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+<div class="main-div">
+	<ul>
+		<li><a href="#">Home1</a></li>
+		<li><a href="#">Home2</a></li>
+		<li><a href="#">Home3</a>
+      <ul>
+		<li><a href="#">Home1</a></li>
+		<li><a href="#">Home2</a></li>
+		<li><a href="#">Home3</a></li>
+		<li><a href="#">Home4</a>
+	<ul>
+		<li><a href="#">Home1</a></li>
+		<li><a href="#">Home2</a></li>
+		<li><a href="#">Home3</a></li>
+		<li><a href="#">Home4</a></li>
+		<li><a href="#">Home5</a></li>
+		<li><a href="#">Home6</a></li>
+	</ul>
+		</li>
+		<li><a href="#">Home5</a></li>
+		<li><a href="#">Home6</a></li>
+	</ul>	 	
+	
+		</li>
+		<li><a href="#">Home4</a>
+	<ul>
+		<li><a href="#">Home1</a></li>
+		<li><a href="#">Home2</a></li>
+		<li><a href="#">Home3</a></li>
+		<li><a href="#">Home4</a>
+	<ul>
+		<li><a href="#">Home1</a></li>
+		<li><a href="#">Home2</a></li>
+		<li><a href="#">Home3</a></li>
+		<li><a href="#">Home4</a></li>
+		<li><a href="#">Home5</a></li>
+		<li><a href="#">Home6</a>
+		<ul>
+		<li><a href="#">Home1</a></li>
+		<li><a href="#">Home2</a></li>
+		<li><a href="#">Home3</a></li>
+		<li><a href="#">Home4</a></li>
+		<li><a href="#">Home5</a>
+	<ul>
+		<li><a href="#">Home1</a></li>
+		<li><a href="#">Home2</a></li>
+		<li><a href="#">Home3</a></li>
+		<li><a href="#">Home4</a></li>
+		<li><a href="#">Home5</a></li>
+		<li><a href="#">Home6</a></li>
+	</ul>
+	
+
+		</li>
+		<li><a href="#">Home6</a></li>
+	</ul>
+		
+		</li>
+	</ul>
+		</li>
+		<li><a href="#">Home5</a></li>
+		<li><a href="#">Home6</a></li>
+	</ul>	 	
+		</li>
+		<li><a href="#">Home5</a></li>
+		<li><a href="#">Home6</a></li>
+	</ul>
+</div>
+</body>
+</html>
